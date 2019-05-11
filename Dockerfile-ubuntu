@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 MAINTAINER Sake Pan "enderson.pan@gmail.com"
 
 # Modify the date of this line if you want to refresh the ubuntu install cache
-ENV REFRESHED_AT 2019-05-11
+ENV REFRESHED_AT 2019-05-11-22:07:10
 
 # Update ubuntu
 RUN apt-get -qq update
