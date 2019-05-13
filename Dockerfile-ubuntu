@@ -6,4 +6,4 @@ MAINTAINER Sake Pan "enderson.pan@gmail.com"
 ENV REFRESHED_AT 2019-05-11-22:07:10
 
 # Update ubuntu
-RUN apt-get -qq update
+RUN apt-get -yqq update
