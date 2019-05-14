@@ -7,3 +7,6 @@ ENV REFRESHED_AT 2019-05-11-22:07:10
 
 # Update ubuntu
 RUN apt-get -yqq update
+
+# Expose port
+#EXPOSE 80
